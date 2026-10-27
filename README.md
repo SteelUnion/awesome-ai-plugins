@@ -1095,6 +1095,9 @@ submitting a repository.
 - [LocalForge](https://github.com/orfeomorello/dsh-localforge) - LM Studio, Ollama, and vLLM adapter for DeepSeek Harness with live model discovery, auto-load, per-model concurrency limits, fallback chains, and Prometheus metrics.
 - [memory-eternal](https://github.com/EternalNight996/memory-eternal) - Memory plugin and MCP server for DeepSeek Harness that distills finished conversations into audited knowledge cards in a searchable local Markdown vault, with knowledge graph and review center.
 - [Vibe-Mathematics](https://github.com/ChongCyrus/Vibe-Mathematics) - Plugin bundle installing four multi-agent math problem-solving and cross-verification agent presets into DeepSeek Harness.
+- [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
+- [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) - Event hub for DSH: collectors produce events, rules rank them into critical/warn/info, and the store keeps them for later review. It never acts on its own.
+- [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) - WeChat channel with a durable serial queue: messages land on disk first, one reply at a time, and unfinished work survives a restart.
 
 ### OpenCode Plugins
 
