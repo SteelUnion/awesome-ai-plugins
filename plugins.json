@@ -3,7 +3,7 @@
   "name": "awesome-ai-plugins",
   "version": "1.0.0",
   "last_updated": "2026-10-27",
-  "total": 1045,
+  "total": 1047,
   "platforms": [
     "codex",
     "grok",
@@ -2027,6 +2027,20 @@
       ]
     },
     {
+      "name": "SteinWall",
+      "url": "https://github.com/maxxstm/steinwall",
+      "owner": "maxxstm",
+      "repo": "steinwall",
+      "description": "Cost brake, action guard, loop rescue and extension scanner that run locally as Codex hooks.",
+      "category": "Development & Workflow",
+      "source": "awesome-ai-plugins",
+      "install_url": "https://raw.githubusercontent.com/maxxstm/steinwall/HEAD/.codex-plugin/plugin.json",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ]
+    },
+    {
       "name": "stickypane",
       "url": "https://github.com/LeeSwallow/stickypane",
       "owner": "LeeSwallow",
@@ -2578,7 +2592,7 @@
       "url": "https://github.com/Aident-AI/aident-skill",
       "owner": "Aident-AI",
       "repo": "aident-skill",
-      "description": "Remote MCP server connecting Codex, Claude Code, Cursor, ChatGPT and other MCP clients to 1,000+ apps and 400+ Skills through one reusable setup, with Vault-protected credentials and Audit logging. Website: https://aident.ai",
+      "description": "Remote MCP server connecting Codex, Claude Code, Cursor, ChatGPT and other MCP clients to their connected apps and 400+ Skills through one reusable setup, with Vault-protected credentials and Audit logging. Website: https://aident.ai",
       "category": "Tools & Integrations",
       "source": "awesome-ai-plugins",
       "install_url": "https://raw.githubusercontent.com/Aident-AI/aident-skill/HEAD/aident-loadout/.codex-plugin/plugin.json",
@@ -13594,6 +13608,19 @@
       "owner": "FeatherHunter",
       "repo": "dsh-opencode-palette",
       "description": "Multi-theme engine for DSH Web with full support for all 38 opencode themes",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ]
+    },
+    {
+      "name": "dsh-plugin-gating-hub",
+      "url": "https://github.com/Noob-stupid/dsh-plugin-gating-hub",
+      "owner": "Noob-stupid",
+      "repo": "dsh-plugin-gating-hub",
+      "description": "DSH plugin adding framework-upgrade safety checks, rollback, plugin gating, and a multi-source plugin and skill marketplace",
       "category": "DeepSeek Harness Plugins",
       "source": "awesome-ai-plugins",
       "platform": "deepseek-harness",
