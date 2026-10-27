@@ -126,6 +126,7 @@ Individually installable Agent Skills collections, rather than one client-specif
 - [FMXER](https://github.com/andrea-magni/FMXER) - Agent skill teaching AI coding agents the FMXER declarative UI framework for Delphi FireMonkey: screens composed in code with named routes, a scaffold, layouts and Skia elements.
 - [formosa-humanizer](https://github.com/nagameTW/formosa-humanizer) - Agent skill that rewrites AI-generated Traditional Chinese prose, removing AI phrasing and mainland China terms across 49 patterns.
 - [Global Engineering Standards](https://github.com/Enki-DEV-expert/engineering-standards) - Twelve engineering standards and six Claude Code and Codex skills for security, privacy, cost and architecture, installable with `npm install -g @enki-dev-expert/global-engineering-standards`.
+- [grcskills](https://github.com/better-isms/grcskills) - 64 open GRC skills that draft risk registers, statements of applicability, audit prep and NIST RMF documents, leaving every sign-off to the practitioner, with an optional framework lookup MCP server.
 - [image-use](https://github.com/leeguooooo/image-use) - Agent skill and zero-dependency CLI for generating and editing images with existing ChatGPT or Gemini accounts, with reference images, reusable styles and looping animations without an API key.
 - [Krexa](https://github.com/Krexa-xyz/skills) - Agent skill and hosted MCP server that turn a trading idea, post or video into a backtested, paper-traded strategy (free) and, after the user approves and signs, a live trading agent on Binance, Coinbase, Kraken, OKX, Bybit, MEXC, Hyperliquid, Polymarket and Solana DEXs with order limits enforced server-side.
 - [kstack](https://github.com/dwk601/kstack) - Eleven agent skills for Herdr that plan with two models checking each other, build with parallel reviewed workers, run a verification swarm, then push a PR and fix it until checks are green.
@@ -1094,10 +1095,10 @@ submitting a repository.
 - [humanizer-ru](https://github.com/ilyautov/humanizer-ru) - Text-only `dsh.bundle` that mounts the humanizer-ru Agent Skill into DeepSeek Harness: rewrites Russian text to remove 64 markers of AI generation, with a corpus-calibrated scanner and audit mode; install with `dsh plugin --profile web add humanizer-ru` (npm) or `github:ilyautov/humanizer-ru`.
 - [LocalForge](https://github.com/orfeomorello/dsh-localforge) - LM Studio, Ollama, and vLLM adapter for DeepSeek Harness with live model discovery, auto-load, per-model concurrency limits, fallback chains, and Prometheus metrics.
 - [memory-eternal](https://github.com/EternalNight996/memory-eternal) - Memory plugin and MCP server for DeepSeek Harness that distills finished conversations into audited knowledge cards in a searchable local Markdown vault, with knowledge graph and review center.
-- [Vibe-Mathematics](https://github.com/ChongCyrus/Vibe-Mathematics) - Plugin bundle installing four multi-agent math problem-solving and cross-verification agent presets into DeepSeek Harness.
 - [SteelUnion/dsh-confirm-gate](https://github.com/SteelUnion/dsh-confirm-gate) - Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted.
 - [SteelUnion/dsh-softsensor-hub](https://github.com/SteelUnion/dsh-softsensor-hub) - Event hub for DSH: collectors produce events, rules rank them into critical/warn/info, and the store keeps them for later review. It never acts on its own.
 - [SteelUnion/dsh-wechat-queue](https://github.com/SteelUnion/dsh-wechat-queue) - WeChat channel with a durable serial queue: messages land on disk first, one reply at a time, and unfinished work survives a restart.
+- [Vibe-Mathematics](https://github.com/ChongCyrus/Vibe-Mathematics) - Plugin bundle installing four multi-agent math problem-solving and cross-verification agent presets into DeepSeek Harness.
 
 ### OpenCode Plugins
 

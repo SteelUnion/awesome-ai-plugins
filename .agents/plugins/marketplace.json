@@ -2876,6 +2876,21 @@
       "install_url": "https://raw.githubusercontent.com/reliable-ly0411/babeldoc-pdf-translate/HEAD/.codex-plugin/plugin.json"
     },
     {
+      "name": "BankBridge",
+      "displayName": "BankBridge",
+      "description": "Remote MCP server and skill that give Codex read-only access to your own US bank, credit card and investment accounts, fetched live, for questions about spending, subscriptions, cashflow and holdings; paid, $5/month per connected bank.",
+      "category": "Tools & Integrations",
+      "source": "awesome-ai-plugins",
+      "platform": "codex",
+      "ecosystems": [
+        "codex"
+      ],
+      "owner": "bankbridge-money",
+      "repo": "bankbridge-plugin",
+      "url": "https://github.com/bankbridge-money/bankbridge-plugin",
+      "install_url": "https://raw.githubusercontent.com/bankbridge-money/bankbridge-plugin/HEAD/.codex-plugin/plugin.json"
+    },
+    {
       "name": "Bitbucket CLI",
       "displayName": "Bitbucket CLI",
       "description": "Manage Bitbucket repos, PRs, branches, issues, webhooks, and pipelines for Data Center and Cloud.",
@@ -5296,6 +5311,21 @@
       "repo": "engineering-standards",
       "url": "https://github.com/Enki-DEV-expert/engineering-standards",
       "installation_url": "https://github.com/Enki-DEV-expert/engineering-standards#readme"
+    },
+    {
+      "name": "grcskills",
+      "displayName": "grcskills",
+      "description": "64 open GRC skills that draft risk registers, statements of applicability, audit prep and NIST RMF documents, leaving every sign-off to the practitioner, with an optional framework lookup MCP server",
+      "category": "Agent Skills",
+      "source": "awesome-ai-plugins",
+      "platform": "agent-skills",
+      "ecosystems": [
+        "agent-skills"
+      ],
+      "owner": "better-isms",
+      "repo": "grcskills",
+      "url": "https://github.com/better-isms/grcskills",
+      "installation_url": "https://github.com/better-isms/grcskills#readme"
     },
     {
       "name": "image-use",
@@ -14691,6 +14721,48 @@
       "owner": "EternalNight996",
       "repo": "memory-eternal",
       "url": "https://github.com/EternalNight996/memory-eternal"
+    },
+    {
+      "name": "SteelUnion/dsh-confirm-gate",
+      "displayName": "SteelUnion/dsh-confirm-gate",
+      "description": "Per-turn counter for persistent operations: it reminds the model, then stops and asks before going further. Read-only actions are not counted",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "SteelUnion",
+      "repo": "dsh-confirm-gate",
+      "url": "https://github.com/SteelUnion/dsh-confirm-gate"
+    },
+    {
+      "name": "SteelUnion/dsh-softsensor-hub",
+      "displayName": "SteelUnion/dsh-softsensor-hub",
+      "description": "Event hub for DSH: collectors produce events, rules rank them into critical/warn/info, and the store keeps them for later review. It never acts on its own",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "SteelUnion",
+      "repo": "dsh-softsensor-hub",
+      "url": "https://github.com/SteelUnion/dsh-softsensor-hub"
+    },
+    {
+      "name": "SteelUnion/dsh-wechat-queue",
+      "displayName": "SteelUnion/dsh-wechat-queue",
+      "description": "WeChat channel with a durable serial queue: messages land on disk first, one reply at a time, and unfinished work survives a restart",
+      "category": "DeepSeek Harness Plugins",
+      "source": "awesome-ai-plugins",
+      "platform": "deepseek-harness",
+      "ecosystems": [
+        "deepseek-harness"
+      ],
+      "owner": "SteelUnion",
+      "repo": "dsh-wechat-queue",
+      "url": "https://github.com/SteelUnion/dsh-wechat-queue"
     },
     {
       "name": "Vibe-Mathematics",
